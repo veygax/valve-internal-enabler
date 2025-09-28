@@ -1,6 +1,6 @@
 ## valve internal enabler
 
-a [millenium](https://steambrew.app) plugin to enable the "Valve Internal" menu typically hidden for non-valve employees.
+a [millennium](https://steambrew.app) plugin to enable the "Valve Internal" menu typically hidden for non-valve employees.
 
 it works by running the following:
 ```js
