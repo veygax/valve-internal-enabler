@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+  "name": "veygax.valve-internal-enabler",
+  "common_name": "Valve Internal Enabler",
+  "description": "Enables the Valve Internal menu in settings.",
+  "useBackend": false,
+  "version": "1.0.0"
+}
