@@ -1,8 +1,8 @@
-import { Millennium, modules } from "@steambrew/client";
+import { findModuleExport, Millennium } from "@steambrew/client";
 
 export default async function PluginMain() {
   Millennium.AddWindowCreateHook(async () => {
-    modules.get("34792").rV.m_Settings.bIsValveEmail = true;
-    modules.get("72476").TS.DEV_MODE = true;
+    findModuleExport(m => m.m_Settings).m_Settings.bIsValveEmail = true;
+    findModuleExport(m => typeof m.DEV_MODE !== 'undefined').DEV_MODE = true;
   });
 }
